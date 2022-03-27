@@ -3802,6 +3802,7 @@ export interface ClientFetchInviteOptions {
 }
 
 export interface ClientOptions {
+  loginUser?: boolean;
   shards?: number | number[] | 'auto';
   shardCount?: number;
   makeCache?: CacheFactory;
